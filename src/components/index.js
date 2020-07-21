@@ -1,0 +1,11 @@
+export { default as Board } from './Board';
+export { default as ChooseMode } from './ChooseMode';
+export { default as ChooseOpponent } from './ChooseOpponent';
+export { default as ChooseUsername } from './ChooseUsername';
+export { default as Header } from './Header';
+export { default as Messages } from './Messages';
+export { default as Message } from './Message';
+export { default as Square } from './Square';
+export { default as Container } from './Container';
+export { default as Feedback } from './Feedback';
+export { default as Exit } from './Exit';

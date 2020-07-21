@@ -1,0 +1,15 @@
+.messages {
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.messages div::-webkit-scrollbar {
+    display: none;
+}
+
+.typing {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #c6c6c3;
+    margin-left: 10px;
+}
