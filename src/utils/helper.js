@@ -82,7 +82,7 @@ export function computer(squares) {
       }
       return;
 
-      //Handle event for counter openent
+      //Handle event to counter opponent
     } else if (
       opponentCounter.length > 1 &&
       (!squares[a] || !squares[b] || !squares[c])
@@ -108,5 +108,5 @@ export function computer(squares) {
     squares[4]
       ? document.getElementById(`square_${randomSquare}`).click()
       : document.getElementById('square_4').click();
-  }, 500);
+  }, 1000);
 }
